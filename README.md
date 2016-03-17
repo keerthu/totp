@@ -1,1 +1,1 @@
-# totp
+# is-outbound-auth-totp
