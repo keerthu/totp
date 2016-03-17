@@ -54,13 +54,13 @@ var login =       "<aut:login xmlns:aut=\"http://authentication.services.core.ca
 
 var getUserInfo = "<log:getUserInfo xmlns:log=\"http://loggeduserinfo.services.core.carbon.wso2.org\"/>";
 
-var initTOTP = "<ns:initTOTP xmlns:ns=\"http://services.totp.identity.carbon.wso2.org\">\n" +
+var initTOTP = "<ns:initTOTP xmlns:ns=\"http://services.totp.authenticator.application.identity.carbon.wso2.org\">\n" +
                 "<ns:username>{0}</ns:username>\n" +
                 "</ns:initTOTP>";
-var resetTOTP = "<ns:resetTOTP xmlns:ns=\"http://services.totp.identity.carbon.wso2.org\">\n" +
+var resetTOTP = "<ns:resetTOTP xmlns:ns=\"http://services.totp.authenticator.application.identity.carbon.wso2.org\">\n" +
                 "<ns:username>{0}</ns:username>\n" +
                 "</ns:resetTOTP>";
-var refreshSecretKey = "<ns:refreshSecretKey xmlns:ns=\"http://services.totp.identity.carbon.wso2.org\">\n" +
+var refreshSecretKey = "<ns:refreshSecretKey xmlns:ns=\"http://services.totp.authenticator.application.identity.carbon.wso2.org\">\n" +
                 "<ns:username>{0}</ns:username>\n" +
                 "</ns:refreshSecretKey>";
 var startRegistration = "<xsd:startRegistration xmlns:xsd=\"http://service.fido.authenticator.application.identity.carbon.wso2.org\">\n"+
